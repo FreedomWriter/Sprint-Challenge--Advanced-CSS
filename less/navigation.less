@@ -1,1 +1,31 @@
 // Navigation code here
+
+.nav-sect {
+    .custom-layout(center);
+    flex-flow: column nowrap;
+    //border: 1px darkmagenta solid;
+    .nav-mixin;
+
+    
+
+    h1 {
+        font-size: 3.8rem;
+    }
+
+    nav {
+        //border: 1px darkcyan solid;
+        .custom-layout(space-around);
+        width: 43%;
+
+        @media @phone {
+            width: 90%;
+        }
+        
+        a {
+          .a-mixin;
+          margin-top: 20px;
+        }
+        
+       
+    }
+}

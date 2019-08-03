@@ -1,1 +1,29 @@
 // Mixins Here
+
+.btn-mixin (@bgc: @btn-bg-color, @fc: white) {
+    background-color: @bgc;
+    color: @fc;
+    font-size: 1.8rem;
+    width: 100px;
+    line-height: 2;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.custom-layout(@just: space-between, @align: center) {
+    display: flex;
+    justify-content: @just;
+    align-items: @align;
+}
+
+.nav-mixin {
+    background-color: #f4f4f4;
+    margin: 0% auto;
+    padding: 20px;
+}
+
+.a-mixin(@clr: @main-font-color ) {
+    text-decoration: none;
+    color: @clr;
+    font-size: 1.6rem;
+}
