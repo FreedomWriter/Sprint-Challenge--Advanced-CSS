@@ -3,8 +3,14 @@
 .nav-sect {
     .custom-layout(center);
     flex-flow: column nowrap;
-    //border: 1px darkmagenta solid;
-    .nav-mixin;
+    width: 100%;
+    background-color: #f4f4f4;
+    margin: 0% auto;
+    padding: 20px;
+    position: fixed;
+    
+    
+
 
     
 
@@ -13,9 +19,8 @@
     }
 
     nav {
-        //border: 1px darkcyan solid;
         .custom-layout(space-around);
-        width: 43%;
+        width: 50%;
 
         @media @phone {
             width: 90%;

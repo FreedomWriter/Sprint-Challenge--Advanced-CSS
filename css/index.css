@@ -1,8 +1,9 @@
-.nav-mixin {
-  background-color: #f4f4f4;
-  margin: 0% auto;
-  padding: 20px;
-}
+/*.nav-mixin {
+    background-color: #f4f4f4;
+    //opacity: .5;
+    margin: 0% auto;
+    padding: 20px;
+}*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -170,9 +171,11 @@ p {
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
+  width: 100%;
   background-color: #f4f4f4;
   margin: 0% auto;
   padding: 20px;
+  position: fixed;
 }
 .nav-sect h1 {
   font-size: 3.8rem;
@@ -181,7 +184,7 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 43%;
+  width: 50%;
 }
 @media (max-width: 500px) {
   .nav-sect nav {
@@ -212,6 +215,8 @@ footer {
 }
 .home .intro img {
   border-radius: 5px;
+  margin-top: 115px;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .home .intro img {
