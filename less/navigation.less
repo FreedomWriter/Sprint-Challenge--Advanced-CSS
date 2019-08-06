@@ -1,1 +1,36 @@
 // Navigation code here
+
+.nav-sect {
+    .custom-layout(center);
+    flex-flow: column nowrap;
+    width: 100%;
+    background-color: #f4f4f4;
+    margin: 0% auto;
+    padding: 20px;
+    position: fixed;
+    
+    
+
+
+    
+
+    h1 {
+        font-size: 3.8rem;
+    }
+
+    nav {
+        .custom-layout(space-around);
+        width: 50%;
+
+        @media @phone {
+            width: 90%;
+        }
+        
+        a {
+          .a-mixin;
+          margin-top: 20px;
+        }
+        
+       
+    }
+}
